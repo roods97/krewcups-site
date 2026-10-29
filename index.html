@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Krew Cups</title>
+    <meta
+      name="description"
+      content="Krew Cups orders your usual coffee while you're still out on your club ride or run, timed so it's made just before you arrive."
+    />
+    <link rel="icon" type="image/png" href="/assets/krewcup-logo-transparent-D4JELKim.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@600;700;800&display=swap"
+    />
+    <script type="module" crossorigin src="/assets/index-CygZt-Nh.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BFq_1Bxv.css">
+  </head>
+  <body>
+    <header class="band">
+      <div class="wrap">
+        <nav class="nav" aria-label="Main">
+          <a class="logo" href="#top" aria-label="Krew Cups home">
+            <span class="logo-badge"><img src="/assets/krewcup-logo-transparent-D4JELKim.png" alt="" /></span>
+            Krew Cups
+          </a>
+          <a class="nav-link" href="https://cafe.krewcups.com">Cafe sign-in</a>
+        </nav>
+        <section class="hero" id="top">
+          <div>
+            <p class="eyebrow">For run &amp; ride clubs · Perth</p>
+            <h1>Less friction between you and your <em>post-run coffee.</em></h1>
+            <p class="lead">
+              Krew Cups orders your usual <b>while you're still out there</b>, timed so it's made just before you
+              arrive. No queues, no mistakes, no waiting.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#interest">Register your interest</a>
+              <span class="status"><i aria-hidden="true"></i>Launching with Perth clubs</span>
+            </div>
+          </div>
+          <aside class="ticket" aria-label="Example order, as the cafe sees it">
+            <div class="ticket-head"><span>Cafe board · Making</span><b>in 4 min</b></div>
+            <div class="ticket-name">Sam K.</div>
+            <div class="ticket-drink"><span>M</span>Flat White</div>
+            <ul>
+              <li>Oat milk</li>
+              <li>Extra shot</li>
+            </ul>
+            <div class="ticket-foot">Paid in the app. Made to Sam's arrival time, not the queue.</div>
+          </aside>
+        </section>
+      </div>
+    </header>
+
+    <main>
+      <section class="how wrap" aria-labelledby="how-title">
+        <h2 class="section-title" id="how-title">How it works</h2>
+        <p class="section-sub">You set it up once. After that, every club ride or run on Strava can end with a coffee.</p>
+        <ol class="timeline">
+          <li class="step">
+            <div class="when">01</div>
+            <h3>Save your usual</h3>
+            <p>Drink, size, milk, shots, extras. Connect Strava and your payment card, and you're set.</p>
+          </li>
+          <li class="step">
+            <div class="when">02</div>
+            <h3>Strava finds your session</h3>
+            <p>
+              Krew Cups watches your Strava clubs for upcoming rides and runs. Before each one you get a nudge: order
+              your usual, tweak it, or skip. Event cancelled on Strava, or didn't show up? No order placed.
+            </p>
+          </li>
+          <li class="step">
+            <div class="when">03</div>
+            <h3>Coffee ready when you arrive</h3>
+            <p>
+              Krew Cups estimates your arrival from your Strava route and pace, and places your order when you're about
+              10 minutes away. The cafe makes it, and you collect it by name.
+            </p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="fine wrap" aria-label="The details">
+        <div class="fine-grid">
+          <div class="fact">
+            <b>Paid to the cafe</b><span>Payments go straight to the cafe through Stripe. Krew Cups never holds your money.</span>
+          </div>
+          <div class="fact">
+            <b>Any club, any pace</b><span>Join as many Strava clubs as you like. Arrival times come from the route and your pace.</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="eoi" id="interest" aria-labelledby="eoi-title">
+        <div class="wrap eoi-grid">
+          <div>
+            <h2 class="section-title" id="eoi-title">Want Krew Cups at your club or cafe?</h2>
+            <p class="intro">
+              Leave your email and tell us who you are. We'll let you know when Krew Cups reaches your club or cafe.
+            </p>
+          </div>
+          <div>
+            <form id="eoi-form" novalidate>
+              <label class="field" for="eoi-email"
+                >Email
+                <input
+                  id="eoi-email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  inputmode="email"
+                  placeholder="you@example.com"
+                  required
+                  maxlength="254"
+                />
+              </label>
+              <fieldset class="roles">
+                <legend>I'm a…</legend>
+                <div class="role-options">
+                  <label><input type="radio" name="role" value="rider" id="role-rider" checked />Rider or runner</label>
+                  <label><input type="radio" name="role" value="club_organiser" id="role-club" />Club organiser</label>
+                  <label><input type="radio" name="role" value="cafe_owner" id="role-cafe" />Cafe owner</label>
+                </div>
+              </fieldset>
+              <label class="field" for="eoi-org"
+                ><span id="org-label">Your club <small>(optional)</small></span>
+                <input
+                  id="eoi-org"
+                  name="organisation"
+                  type="text"
+                  autocomplete="organization"
+                  placeholder="e.g. Swan River Riders"
+                  maxlength="200"
+                />
+              </label>
+              <div class="honeypot" aria-hidden="true">
+                <label for="eoi-website">Website</label
+                ><input id="eoi-website" name="website" type="text" tabindex="-1" autocomplete="off" />
+              </div>
+              <p class="form-error" id="eoi-error" role="alert" hidden></p>
+              <div class="form-foot">
+                <button class="submit" type="submit" id="eoi-submit">Register interest</button>
+                <p class="privacy">
+                  We'll email you when Krew Cups launches near you, plus the odd product update. Unsubscribe any time.
+                </p>
+              </div>
+            </form>
+            <div class="thanks" id="eoi-thanks" role="status" hidden>
+              <b>You're on the list</b>
+              <p>Thanks. We'll be in touch when Krew Cups reaches you.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="wrap">
+      <span>© 2026 Krew Cups · Made in Perth, WA</span>
+      <!-- Strava's official badges, unaltered (developers.strava.com/guidelines): orange on the
+           light page, white where the dark theme would make the orange one's black text unreadable. -->
+      <picture>
+        <source srcset="/api_logo_cptblWith_strava_horiz_white.svg" media="(prefers-color-scheme: dark)" />
+        <img class="strava-badge" src="/api_logo_cptblWith_strava_horiz_orange.svg" alt="Compatible with Strava" />
+      </picture>
+    </footer>
+  </body>
+</html>
