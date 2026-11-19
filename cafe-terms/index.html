@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Cafe terms · Krew Cups</title>
+    <meta
+      name="description"
+      content="The agreement between your cafe and Krew Cups: who the seller is, when Members are charged and refunded, and Flags."
+    />
+    <link rel="icon" type="image/png" href="/assets/krewcup-logo-transparent-D4JELKim.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@600;700;800&display=swap"
+    />
+    <link rel="stylesheet" crossorigin href="/assets/styles-b7v2vIeq.css">
+  </head>
+  <body>
+    <!-- Always the current version. The version, dates and text come from src/cafeTerms (page.ts). -->
+    <header class="band">
+      <div class="wrap">
+        <nav class="nav" aria-label="Main">
+          <a class="logo" href="../" aria-label="Krew Cups home">
+            <span class="logo-badge"><img src="/assets/krewcup-logo-transparent-D4JELKim.png" alt="" /></span>
+            Krew Cups
+          </a>
+          <a class="nav-link" href="https://cafe.krewcups.com">Cafe sign-in</a>
+        </nav>
+        <div class="doc-hero">
+          <p class="eyebrow">For cafes on Krew Cups</p>
+          <h1>Krew Cups Cafe terms</h1>
+          <p class="doc-meta terms-meta"><span class="ver-pill">Version 1.0</span> <span>Published <b><time datetime="2026-11-11">11 November 2026</time></b></span> <a href="v1-0/">krewcups.com/cafe-terms/v1-0/</a></p>
+        </div>
+      </div>
+    </header>
+
+    <main class="wrap doc-body">
+      <nav class="toc" aria-label="Versions and contents">
+          <h2>Versions</h2>
+          <ul class="versions">
+            <li><a href="v1-0/" aria-current="true"><span>v1.0 · current</span><span>11 November 2026</span></a></li>
+          </ul>
+          <h2>Contents</h2>
+          <ol>
+            <li><a href="#c1">About these terms</a></li>
+            <li><a href="#c2">What Krew Cups is (and isn't)</a></li>
+            <li><a href="#c3">Your Stripe account</a></li>
+            <li><a href="#c4">The Platform fee</a></li>
+            <li><a href="#c5">How Orders and payments work</a></li>
+            <li><a href="#c6">Authority to act on your Stripe account</a></li>
+            <li><a href="#c7">What you must keep right</a></li>
+            <li><a href="#c8">Notices</a></li>
+            <li><a href="#c9">Flags</a></li>
+            <li><a href="#c10">Member information</a></li>
+            <li><a href="#c11">Our service</a></li>
+            <li><a href="#c12">Leaving and offboarding</a></li>
+            <li><a href="#c13">Changes to these terms</a></li>
+            <li><a href="#c14">Liability</a></li>
+            <li><a href="#c15">Your responsibility for your products</a></li>
+            <li><a href="#c16">Disputes and governing law</a></li>
+            <li><a href="#c17">General</a></li>
+          </ol>
+        </nav>
+
+        <article class="doc-text">
+        <section class="short-version" aria-labelledby="short-title">
+          <h2 id="short-title">The short version</h2>
+          <p>A summary to help you read the terms. The full terms below are what you agree to.</p>
+          <ol class="key-points">
+            <li><span class="n">1</span><div><b>You are the seller</b><span>Members buy from you. Payment goes straight into your own Stripe account. Krew Cups never holds your money.</span></div></li>
+            <li><span class="n">2</span><div><b>You pay Krew Cups nothing</b><span>Members pay a small Platform fee on top of your prices. You pay Stripe's card fees on each charge, which Stripe keeps if a charge is refunded.</span></div></li>
+            <li class="money"><span class="n">3</span><div><b>Charged when you start making</b><span>A Member is only charged when you move the Order to Making. Reject after that, and they get a full refund from your account.</span></div></li>
+            <li><span class="n">4</span><div><b>No-shows are yours to keep</b><span>If a Member never collects a Ready Order, you keep the money.</span></div></li>
+            <li><span class="n">5</span><div><b>No higher than your counter</b><span>Your Krew Cups price for an item can never be more than your counter price.</span></div></li>
+            <li class="money"><span class="n">6</span><div><b>Answer Flags within 2 working days</b><span>If you don't respond to a Member's Flag in time, the full menu price is refunded from your Stripe account automatically.</span></div></li>
+            <li><span class="n">7</span><div><b>Member details are for the Order only</b><span>No marketing, no sharing, and never charge a saved card outside Krew Cups.</span></div></li>
+            <li><span class="n">8</span><div><b>Leave any time</b><span>Email info@krewcups.com and we'll take you off within 2 working days. Nothing owed.</span></div></li>
+          </ol>
+        </section>
+
+        <!-- Cafe terms v1.0, from .scratch/cafe-sign-up-terms/terms-draft.md. Site links start with a root placeholder that page.ts fills in. -->
+  <section id="c1" aria-labelledby="c1-title">
+    <h2 id="c1-title">1. About these terms</h2>
+    <p id="c1-1"><span class="clause-no">1.1</span> These terms are an agreement between your business (<b>you</b>, the <b>Cafe</b>) and <b>Rudi Jooste (ABN 72 877 840 225), trading as Krew Cups</b> (<b>Krew Cups</b>, <b>we</b>, <b>us</b>).</p>
+    <p id="c1-2"><span class="clause-no">1.2</span> They apply when your Cafe uses Krew Cups to receive and fulfil pre-orders from members of running and cycling clubs (<b>Members</b>), through the Krew Cups order board (the <b>Fulfillment surface</b>).</p>
+    <p id="c1-3"><span class="clause-no">1.3</span> The person who accepts these terms confirms that they are authorised to accept them on behalf of the business. We record the version you accepted, when, who accepted it, and your notice email at that time.</p>
+    <p id="c1-4"><span class="clause-no">1.4</span> Krew Cups is a sole trader business. We may transfer this agreement to a company that we control and that carries on the Krew Cups business. If we do, we'll tell you by email, and your rights under these terms won't be reduced.</p>
+  </section>
+
+  <section id="c2" aria-labelledby="c2-title">
+    <h2 id="c2-title">2. What Krew Cups is (and isn't)</h2>
+    <p id="c2-1"><span class="clause-no">2.1</span> <b>Krew Cups is a technology platform.</b> We provide the software that lets Members order from you ahead of their club's arrival, and lets you see and manage those Orders.</p>
+    <p id="c2-2"><span class="clause-no">2.2</span> <b>You are the seller.</b> Every Order is a sale of your food and drinks by you to the Member. We are not a party to that sale, we don't buy or resell your products, and we are not your agent.</p>
+    <p id="c2-3"><span class="clause-no">2.3</span> <b>Payments go directly to you.</b> Each Order is charged as a direct charge on your own Stripe account. Krew Cups never receives or holds the money for your products.</p>
+    <p id="c2-4"><span class="clause-no">2.4</span> You remain responsible for your products under the Australian Consumer Law and every other law that applies to selling food and drinks.</p>
+  </section>
+
+  <section id="c3" aria-labelledby="c3-title">
+    <h2 id="c3-title">3. Your Stripe account</h2>
+    <p id="c3-1"><span class="clause-no">3.1</span> To receive Orders you must create a Stripe account through Krew Cups and finish Stripe's onboarding. Your Stripe account is a Standard account with its own Stripe dashboard.</p>
+    <p id="c3-2"><span class="clause-no">3.2</span> Your Stripe account is governed by your own agreement with Stripe (the Stripe Connected Account Agreement). You accept Stripe's terms directly with Stripe.</p>
+    <p id="c3-3"><span class="clause-no">3.3</span> <b>You pay Stripe's fees</b> on every charge, including the part of the charge that is the Platform fee (clause 4). Stripe's fees are generally not returned when a charge is refunded.</p>
+    <p id="c3-4"><span class="clause-no">3.4</span> <b>Chargebacks</b> (disputes a Member raises with their bank) are made against your Stripe account and are handled by you in your Stripe dashboard. Krew Cups doesn't handle chargebacks.</p>
+    <p id="c3-5"><span class="clause-no">3.5</span> Refunds come out of your Stripe balance. If your balance is too low, Stripe may take your account negative and recover the amount from your future payouts. That's between you and Stripe.</p>
+    <p id="c3-6"><span class="clause-no">3.6</span> Each Order saves a copy of the Member's payment card on your Stripe account so the Order can be charged. See clause 10.3 for what you may and may not do with it.</p>
+  </section>
+
+  <section id="c4" aria-labelledby="c4-title">
+    <h2 id="c4-title">4. The Platform fee</h2>
+    <p id="c4-1"><span class="clause-no">4.1</span> Krew Cups charges the <b>Member</b> a Platform fee on each Order, on top of your menu price. It's collected as part of the Member's charge and paid to Krew Cups through Stripe. The current amount is shown in the app.</p>
+    <p id="c4-2"><span class="clause-no">4.2</span> <b>You don't pay Krew Cups anything.</b> Your only costs are Stripe's fees (clause 3.3), the price difference when you apply a more expensive Fallback (clause 5.2(e)), and any refunds you give.</p>
+    <p id="c4-3"><span class="clause-no">4.3</span> The Platform fee is refunded to the Member when:</p>
+    <ul class="clause-list">
+      <li>(a) you Reject an Order after it was charged; or</li>
+      <li>(b) Krew Cups finds, on a Flag, that the app was at fault (<b>Fee refunded</b>). This refund comes from Krew Cups, never from you.</li>
+    </ul>
+    <p>It is not refunded when you apply a Fallback, when you Refund a Flag, or on an automatic refund under clause 9.5.</p>
+    <p id="c4-4"><span class="clause-no">4.4</span> We may change the Platform fee that Members pay at any time. It doesn't come out of your money.</p>
+    <p id="c4-5"><span class="clause-no">4.5</span> We will only ever charge <b>you</b> a fee through a new version of these terms, given with at least 30 days' notice, which you must accept (clause 13). You can leave instead, with nothing owed.</p>
+    <p id="c4-6"><span class="clause-no">4.6</span> Krew Cups is not registered for GST. If it becomes registered, the Platform fee will include GST and won't increase because of the registration.</p>
+  </section>
+
+  <section id="c5" aria-labelledby="c5-title">
+    <h2 id="c5-title">5. How Orders and payments work</h2>
+    <p id="c5-1"><span class="clause-no">5.1</span> These are the payment rules for every Order. Changing them needs a new version of these terms.</p>
+    <p id="c5-2"><span class="clause-no">5.2</span> <b>Payment rules:</b></p>
+    <ul class="clause-list">
+      <li>(a) <b>Charging.</b> The Member is charged only when your staff move the Order to <b>Making</b>. Before that, nothing is charged and the Member may change or cancel the Order for free.</li>
+      <li>(b) <b>Orders never started.</b> An Order your staff never move to Making is never charged.</li>
+      <li>(c) <b>Failed payment.</b> If the charge fails, the Order is marked "don't make". You may retry it or Reject it. Don't make it unless the charge succeeds.</li>
+      <li>(d) <b>Reject.</b> You may Reject any Order, with a reason. If it was already charged, the Member automatically gets a full refund from your Stripe account, including the Platform fee.</li>
+      <li>(e) <b>Fallbacks.</b> If you can't make the Order as placed, you may only apply the Member's own pre-approved Fallback, or Reject. The Member pays the lower of the two prices. If the Fallback is cheaper, the difference is refunded from your account. If the Fallback is dearer, the Member pays nothing extra and you absorb the difference.</li>
+      <li>(f) <b>No-show.</b> If the Member doesn't collect a Ready Order, it becomes a No-show and <b>you keep the money</b>. This is final unless a Flag later results in a refund.</li>
+      <li>(g) <b>Prices are fixed.</b> An Order is charged at the price the Member saw when they placed it. A later change to your menu doesn't affect Orders already placed.</li>
+      <li>(h) <b>Cancelled rides.</b> If a club cancels a ride before it starts, its Orders are cancelled before anything is charged.</li>
+    </ul>
+    <p id="c5-3"><span class="clause-no">5.3</span> <b>The Order guide.</b> The timings and screens of the order flow (when an Order arrives on your board, when it becomes a No-show, and so on) are described in the <b>Order guide</b> at <a href="../order-guide/">https://krewcups.com/order-guide/</a>. We may update the Order guide with <b>14 days' notice by email</b>. An update to the Order guide can never move money away from you; that needs a new version of these terms.</p>
+    <p id="c5-4"><span class="clause-no">5.4</span> <b>Arrival estimates aren't guaranteed.</b> Order timing depends on Members' estimated arrival, which may be wrong. Krew Cups doesn't guarantee estimates, and an Order that becomes a No-show stays yours (clause 5.2(f)), even if an estimate was wrong.</p>
+  </section>
+
+  <section id="c6" aria-labelledby="c6-title">
+    <h2 id="c6-title">6. Authority to act on your Stripe account</h2>
+    <p id="c6-1"><span class="clause-no">6.1</span> <b>Your staff's actions are your instructions.</b> Anything done on your Fulfillment surface or Cafe account (moving an Order to Making, Rejecting it, applying a Fallback, Refunding a Flag, and so on) is an instruction from you, whoever did it. You authorise Krew Cups to carry those instructions out on your Stripe account, including charges and refunds. You're responsible for who can access your board and account.</p>
+    <p id="c6-2"><span class="clause-no">6.2</span> <b>What Krew Cups may do on its own.</b> You authorise Krew Cups to refund a Member from your Stripe account without a new instruction from you in <b>only</b> these cases:</p>
+    <ul class="clause-list">
+      <li>(a) the <b>automatic refund</b> on a Flag you didn't respond to in time (clause 9.5); and</li>
+      <li>(b) <b>retrying a refund that failed</b>, for an amount already decided under clause 6.1 or 6.2(a).</li>
+    </ul>
+    <p id="c6-3"><span class="clause-no">6.3</span> Apart from clause 6.2, Krew Cups will never charge you, reverse a payout, or decide the amount of a refund from your money. The Operator's decision on a Flag doesn't move your money by itself.</p>
+  </section>
+
+  <section id="c7" aria-labelledby="c7-title">
+    <h2 id="c7-title">7. What you must keep right</h2>
+    <p id="c7-1"><span class="clause-no">7.1</span> You must keep accurate and up to date:</p>
+    <ul class="clause-list">
+      <li>(a) your <b>menu and prices</b>, including modifier prices. Your menu goes live as soon as you save it, with no review by us;</li>
+      <li>(b) your <b>Stocked milks</b>;</li>
+      <li>(c) your <b>address</b> and the <b>front-door pin</b> on the map; and</li>
+      <li>(d) your <b>opening hours</b>, where the app asks for them.</li>
+    </ul>
+    <p id="c7-2"><span class="clause-no">7.2</span> <b>Price parity.</b> Your price for an item in Krew Cups must never be higher than your own counter price for the same item. It may be lower. The Platform fee is not part of your price.</p>
+    <p id="c7-3"><span class="clause-no">7.3</span> <b>During service,</b> you must keep your board open and act on Orders as they arrive: Making, Ready and Collected, or a Fallback or Reject.</p>
+    <p id="c7-4"><span class="clause-no">7.4</span> <b>Menu checks.</b> We may ask you from time to time to confirm that your prices are still current.</p>
+    <p id="c7-5"><span class="clause-no">7.5</span> <b>Allergens and food safety.</b> You're responsible for food safety, allergen information and the quality of everything you serve, including milks and syrups.</p>
+  </section>
+
+  <section id="c8" aria-labelledby="c8-title">
+    <h2 id="c8-title">8. Notices</h2>
+    <p id="c8-1"><span class="clause-no">8.1</span> <b>To you:</b> we send notices to your <b>Cafe account email</b>. Until you have a Cafe account, we use the email address on your Stripe account. You must keep that inbox monitored.</p>
+    <p id="c8-2"><span class="clause-no">8.2</span> <b>To us:</b> send notices to <b><a href="mailto:info@krewcups.com">info@krewcups.com</a></b>.</p>
+    <p id="c8-3"><span class="clause-no">8.3</span> A notice is received when it's sent, or on the next Working day if it's sent outside a Working day.</p>
+    <p id="c8-4"><span class="clause-no">8.4</span> A <b>Working day</b> is Monday to Friday on Perth time, excluding Western Australian public holidays.</p>
+  </section>
+
+  <section id="c9" aria-labelledby="c9-title">
+    <h2 id="c9-title">9. Flags</h2>
+    <p id="c9-1"><span class="clause-no">9.1</span> <b>What a Flag is.</b> A Flag is a report that something went wrong with one Order. A Member may Flag a Collected or No-show Order, and you may Flag a Collected, Rejected or No-show Order. Either side may Flag only within 24 hours of the Order's arrival estimate.</p>
+    <p id="c9-2"><span class="clause-no">9.2</span> <b>Your response to a Member's Flag.</b> You'll see the Member's reason, description and photo. You must respond within <b>2 Working days</b> with one of:</p>
+    <ul class="clause-list">
+      <li>(a) <b>Refund:</b> any amount up to the Order's menu price, from your Stripe account. The Platform fee stays with Krew Cups;</li>
+      <li>(b) <b>Contest with Krew Cups:</b> the app was at fault, not you. Add a note for the Operator;</li>
+      <li>(c) <b>Contest with Member:</b> you got the Order right. Add a note. The Member then accepts or contests back; or</li>
+      <li>(d) <b>Resolved in person:</b> you already sorted it at the counter. Add a note saying what you did. The Member then confirms or contests back.</li>
+    </ul>
+    <p id="c9-3"><span class="clause-no">9.3</span> If the Member doesn't answer your response within 2 Working days, they're taken to accept it.</p>
+    <p id="c9-4"><span class="clause-no">9.4</span> <b>Reminders.</b> We'll show the Flag and the time left on your board, and email you when it arrives and again about 12 hours before the deadline.</p>
+    <p id="c9-5"><span class="clause-no">9.5</span> <b>The automatic refund.</b> If you don't respond to a Member's Flag within 2 Working days, you're taken to accept it, and <b>the Order's full menu price (less any amount already refunded) is refunded to the Member from your Stripe account automatically.</b> The Platform fee stays with Krew Cups. This applies only to Orders sent to you after you accepted a version of these terms that includes this clause.</p>
+    <p id="c9-6"><span class="clause-no">9.6</span> <b>The Operator.</b> A Flag that is contested goes to the Krew Cups Operator, who reviews it and closes it as Upheld, Not upheld or Fee refunded, aiming to do so within 5 Working days. If the Operator needs more information, they'll email you. The Operator can't refund your money. After an Upheld decision, you may still Refund at any time.</p>
+    <p id="c9-7"><span class="clause-no">9.7</span> <b>Your Flags.</b> You may Flag an Order yourself: for example, the Member didn't collect, behaved badly at the counter, or the Order was wrong when sent. Your Flag goes straight to the Operator, and the Member doesn't see it.</p>
+    <p id="c9-8"><span class="clause-no">9.8</span> <b>Member Suspension.</b> A Member is suspended from ordering on their fifth Upheld Cafe Flag within 12 months, or by the Operator at any time.</p>
+    <p id="c9-9"><span class="clause-no">9.9</span> <b>Your record.</b> The Operator keeps a record of each Cafe's Flags, including Upheld Flags you didn't refund and automatic refunds. A pattern of refusing fair refunds can lead to offboarding under clause 12.</p>
+  </section>
+
+  <section id="c10" aria-labelledby="c10-title">
+    <h2 id="c10-title">10. Member information</h2>
+    <p id="c10-1"><span class="clause-no">10.1</span> For each Order you see the Member's Pickup name, their drink and its changes. For a Flag, you also see the Member's reason, description and photo. You never see a Member's contact details or location.</p>
+    <p id="c10-2"><span class="clause-no">10.2</span> You may use Member information <b>only</b> to make and hand over Orders and to deal with refunds and Flags. You must not:</p>
+    <ul class="clause-list">
+      <li>(a) use it for marketing, or add Members to any mailing or loyalty list;</li>
+      <li>(b) share it with anyone else, or combine it with other information to identify a Member; or</li>
+      <li>(c) keep it longer than your normal business, tax and accounting records need.</li>
+    </ul>
+    <p id="c10-3"><span class="clause-no">10.3</span> <b>Saved cards.</b> You must <b>never</b> charge a Member's saved card on your Stripe account for anything except through Krew Cups. Doing so is a serious breach (clause 12.3).</p>
+    <p id="c10-4"><span class="clause-no">10.4</span> You must keep Flag details (descriptions and photos) confidential.</p>
+    <p id="c10-5"><span class="clause-no">10.5</span> Krew Cups handles your business's information under its privacy policy at <a href="../privacy/">https://krewcups.com/privacy</a>, and keeps your records for 7 years after you leave, as Australian tax law requires.</p>
+  </section>
+
+  <section id="c11" aria-labelledby="c11-title">
+    <h2 id="c11-title">11. Our service</h2>
+    <p id="c11-1"><span class="clause-no">11.1</span> We'll take reasonable care in providing Krew Cups, but we don't guarantee that the app will always be available, that Orders will reach you, or that arrival estimates will be accurate.</p>
+    <p id="c11-2"><span class="clause-no">11.2</span> We may change, add to or remove features of Krew Cups. A change that moves money away from you needs a new version of these terms (clause 13).</p>
+  </section>
+
+  <section id="c12" aria-labelledby="c12-title">
+    <h2 id="c12-title">12. Leaving and offboarding</h2>
+    <p id="c12-1"><span class="clause-no">12.1</span> <b>You can leave at any time</b> by emailing <a href="mailto:info@krewcups.com">info@krewcups.com</a>. We'll offboard you within 2 Working days. Nothing is owed by either side for leaving.</p>
+    <p id="c12-2"><span class="clause-no">12.2</span> <b>We can end this agreement</b> for any reason with <b>14 days' notice</b> by email. Once we give notice, no new Orders are sent to you.</p>
+    <p id="c12-3"><span class="clause-no">12.3</span> <b>We can end it immediately</b> if:</p>
+    <ul class="clause-list">
+      <li>(a) you misuse Member cards or information (clause 10);</li>
+      <li>(b) you act fraudulently;</li>
+      <li>(c) you repeatedly refuse fair refunds;</li>
+      <li>(d) you keep breaking clause 7 (for example Price parity) after a warning; or</li>
+      <li>(e) your Stripe account is restricted or closed.</li>
+    </ul>
+    <p id="c12-4"><span class="clause-no">12.4</span> <b>Orders in progress.</b> You must make or Reject any Orders already sent to you before your access ends.</p>
+    <p id="c12-5"><span class="clause-no">12.5</span> <b>Flags after you leave.</b> Members may still Flag recent Orders within the usual 24 hours. Once your access has ended there is <b>no automatic refund</b>: those Flags go to the Operator, who will email you, and you can still refund from your Stripe dashboard.</p>
+    <p id="c12-6"><span class="clause-no">12.6</span> Clauses 3.4, 3.5, 6, 9 (for Orders before you left), 10, 14, 15 and 16 continue after this agreement ends.</p>
+  </section>
+
+  <section id="c13" aria-labelledby="c13-title">
+    <h2 id="c13-title">13. Changes to these terms</h2>
+    <p id="c13-1"><span class="clause-no">13.1</span> Every change to these terms is a new version, with its own number and date, and we email it to you <b>at least 30 days before it takes effect</b>.</p>
+    <p id="c13-2"><span class="clause-no">13.2</span> There are two exceptions:</p>
+    <ul class="clause-list">
+      <li>(a) a change required by law or by Stripe may take effect sooner, with as much notice as we can give; and</li>
+      <li>(b) corrections that don't change anyone's rights (for example typos or contact details) need no notice or acceptance.</li>
+    </ul>
+    <p id="c13-3"><span class="clause-no">13.3</span> <b>You accept a new version on the Fulfillment surface.</b> If you haven't accepted it by the time it takes effect, no new Orders are sent to you until you do. Orders, Flags and refunds from before then continue under the version you last accepted.</p>
+    <p id="c13-4"><span class="clause-no">13.4</span> If you don't want to accept a new version, you can leave before it takes effect, with nothing owed.</p>
+    <p id="c13-5"><span class="clause-no">13.5</span> Every past version stays available at <a href="../cafe-terms/">https://krewcups.com/cafe-terms/</a>.</p>
+  </section>
+
+  <section id="c14" aria-labelledby="c14-title">
+    <h2 id="c14-title">14. Liability</h2>
+    <p id="c14-1"><span class="clause-no">14.1</span> Nothing in these terms excludes, restricts or modifies any right or remedy you have under the Australian Consumer Law that can't lawfully be excluded. Where the law allows us to limit our liability for a failure to meet a consumer guarantee, our liability is limited to supplying the service again or paying the cost of having it supplied again.</p>
+    <p id="c14-2"><span class="clause-no">14.2</span> Subject to clause 14.1, our total liability to you under or in connection with these terms is limited to the greater of <b>A$100</b> and the total Platform fees on your Orders in the 12 months before the claim arose.</p>
+    <p id="c14-3"><span class="clause-no">14.3</span> Subject to clause 14.1, neither of us is liable to the other for indirect or consequential loss, including loss of profit, revenue or goodwill.</p>
+  </section>
+
+  <section id="c15" aria-labelledby="c15-title">
+    <h2 id="c15-title">15. Your responsibility for your products</h2>
+    <p id="c15-1"><span class="clause-no">15.1</span> You indemnify Krew Cups against any claim by a Member or anyone else arising from:</p>
+    <ul class="clause-list">
+      <li>(a) the products you sell, including food safety and allergens; or</li>
+      <li>(b) your breach of these terms or the law.</li>
+    </ul>
+    <p id="c15-2"><span class="clause-no">15.2</span> Your liability under clause 15.1 is reduced to the extent Krew Cups caused or contributed to the loss.</p>
+  </section>
+
+  <section id="c16" aria-labelledby="c16-title">
+    <h2 id="c16-title">16. Disputes and governing law</h2>
+    <p id="c16-1"><span class="clause-no">16.1</span> If we have a dispute, the party raising it emails the other with the details, and we both try in good faith to resolve it within 20 Working days.</p>
+    <p id="c16-2"><span class="clause-no">16.2</span> If that doesn't resolve it, either of us may refer it to mediation through the <b>Small Business Development Corporation of Western Australia</b> before going to court.</p>
+    <p id="c16-3"><span class="clause-no">16.3</span> Either of us may seek urgent court orders at any time.</p>
+    <p id="c16-4"><span class="clause-no">16.4</span> These terms are governed by the law of <b>Western Australia</b>, and both of us submit to the courts of Western Australia.</p>
+  </section>
+
+  <section id="c17" aria-labelledby="c17-title">
+    <h2 id="c17-title">17. General</h2>
+    <p id="c17-1"><span class="clause-no">17.1</span> These terms, the Order guide and your Stripe agreement are the whole agreement between us about Krew Cups.</p>
+    <p id="c17-2"><span class="clause-no">17.2</span> If any part of these terms is invalid, the rest still applies.</p>
+    <p id="c17-3"><span class="clause-no">17.3</span> Not enforcing a right straight away doesn't mean we've given it up.</p>
+  </section>
+
+        <p class="doc-questions">Questions? Email <a href="mailto:info@krewcups.com">info@krewcups.com</a>.</p>
+        </article>
+    </main>
+
+    <footer class="wrap">
+      <span>© 2026 Krew Cups · Made in Perth, WA</span>
+      <nav class="foot-links" aria-label="Site">
+        <a href="./" aria-current="page">Cafe terms</a>
+        <a href="../privacy/">Privacy policy</a>
+        <a href="mailto:info@krewcups.com">info@krewcups.com</a>
+      </nav>
+      <picture>
+        <source srcset="/api_logo_cptblWith_strava_horiz_white.svg" media="(prefers-color-scheme: dark)" />
+        <img class="strava-badge" src="/api_logo_cptblWith_strava_horiz_orange.svg" alt="Compatible with Strava" />
+      </picture>
+    </footer>
+  </body>
+</html>
